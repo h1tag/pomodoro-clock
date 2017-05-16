@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Pomodoro</title>
+
+       <!-- Bootstrap Mobile first -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+
+        <!-- jQuery library -->
+        <!-- You also need jQuery for Bootstrap -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+
+        <!-- lato font -->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+        <script src="js/script.js"></script>
+
+    </head>
+    <body>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+                <div class="text-center">
+                    <button id="break-minus" class="btn btn-primary btn-xs">B -</button>
+                    <span id="break-time">0</span>
+                    <button id="break-plus" class="btn btn-primary btn-xs">B  +</button>
+
+                    <button id="session-minus" class="btn btn-primary btn-xs">S -</button>
+                    <span id="session-time">0</span>
+                    <button id="session-plus" class="btn btn-primary btn-xs">S +</button>
+
+                    <div class="row-spacing"><h2 id="timer-name">Timer Name</h2>
+                    <h1 id="timer" class="timer-txt">00</h1></div>
+                    <button id = "start" class="btn btn-primary btn-lg active ">start</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-2"></div>
+        </div>
+
+    </body>
+</html>
